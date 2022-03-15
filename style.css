@@ -1,0 +1,1218 @@
+/* This code uses clip-paths to apply slanted angles in varying colors to specific sections on specific pages. https://bennettfeely.com/clippy/ was used to create the clip-path polygons. 
+
+* Inspire Consumer Insight Accelerator has been shortened to Inspire Consumer for the purpose of this doc 
+* Table of contents 
+* General code
+* Home 
+* Header 
+* Explore all designs 
+* Behavioral Innovation 
+* Forness 
+* Inspire consumer 
+* Blog  
+* Case studies page 
+* Case studies pages (collection) 
+* Creative consumer associates 
+* Meet our team 
+* Team pages (collection) 
+* FAQ 
+* Talk to us 
+* Templates for future pages
+
+/* General code applied to all elements of website as a default * Mobile image max */
+@mobile: ~"only screen and (max-width: 640px)";
+@tablet: ~"only screen and (min-width: 641px) and (max-width: 949px)";
+/* for Mobile */
+@media @mobile {
+	.sqs-block-image {
+		width: 30%;
+		margin: 0 auto;
+   }
+}
+/* for Tablet */
+@media @tablet {
+	.sqs-block-image {
+		width: 30%;
+		margin: 0 auto;
+   }
+}
+/* Remove hyphens / linebreaks */
+p, h1, h2, h3 {
+	-webkit-hyphens: manual !important;
+	-moz-hyphens: manual !important;
+	-ms-hyphens: manual !important;
+	hyphens: manual !important;
+}
+/* Button customizations, default */
+.sqs-block-button-element {
+	background-color: #022437;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #ffffff !important;
+}
+.sqs-block-button-element:hover {
+	background-color: #ffffff !important;
+	color: #022437 !important;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #ffffff !important;
+}
+/* End general code section*/
+/* Home Page 
+/*home page button customizations */
+#collection-60f77ffe24e1ff481041aeb5 {
+	#page .page-section:nth-of-type(7){
+		.sqs-block-button-element {
+			background-color: #ffffff;
+			color: #022437 !important;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #022437 !important;
+		}
+		.sqs-block-button-element:hover {
+			background-color: #022437 !important;
+			color: #ffffff !important;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #022437 !important;
+		}
+   }
+}
+#collection-60f77ffe24e1ff481041aeb5 {
+	#page .page-section:nth-of-type(9){
+		.sqs-block-button-element {
+			background-color: #ffffff;
+			color: #022437 !important;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #022437 !important;
+		}
+		.sqs-block-button-element:hover {
+			background-color: #022437 !important;
+			color: #ffffff !important;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #022437 !important;
+		}
+   }
+}
+#collection-60f77ffe24e1ff481041aeb5 {
+	#page .page-section:nth-of-type(11){
+		.sqs-block-button-element {
+			background-color: #ffffff;
+			color: #28ce24 !important;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #28ce24 !important;
+			padding: 20px 30px;
+			font-size: 15px;
+	   }
+		.sqs-block-button-element:hover {
+			border-radius: 3px;
+			padding: 20px 30px;
+			font-size: 15px;
+			color: #ffffff !important;
+			background: #28ce24 !important;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #28ce24 !important;
+	   }
+   }
+}
+/* Home page clip-paths */
+#collection-60f77ffe24e1ff481041aeb5 {
+	#page .page-section:nth-of-type(2) {
+		-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 100% 0%);
+		clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+   }
+}
+#collection-60f77ffe24e1ff481041aeb5 {
+	#page .page-section:nth-of-type(3) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+   }
+}
+#collection-60f77ffe24e1ff481041aeb5 {
+	#page .page-section:nth-of-type(4) {
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+   }
+}
+#collection-60f77ffe24e1ff481041aeb5 {
+	#page .page-section:nth-of-type(6) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+   }
+}
+#collection-60f77ffe24e1ff481041aeb5 {
+	#page .page-section:nth-of-type(7) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+   }
+}
+#collection-60f77ffe24e1ff481041aeb5 {
+	#page .page-section:nth-of-type(8) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+   }
+}
+#collection-60f77ffe24e1ff481041aeb5 {
+	#page .page-section:nth-of-type(9) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+   }
+}
+#collection-60f77ffe24e1ff481041aeb5 {
+	#page .page-section:nth-of-type(10) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+   }
+}
+#collection-60f77ffe24e1ff481041aeb5 {
+	#page .page-section:nth-of-type(12) {
+		-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+   }
+}
+/* End home page code section */
+/*Header * Header button customization*/
+.header-actions-action .btn:hover {
+	border-radius: 3px;
+	padding: 20px 30px;
+	font-size: 15px;
+	color: #ffffff !important;
+	background: #28ce24 !important;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #28ce24 !important;
+}
+.header-actions-action .btn {
+	border-radius: 3px;
+	padding: 20px 30px;
+	font-size: 15px;
+	color: #28ce24 !important;
+	background: #ffffff !important;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #28ce24 !important;
+}
+@media @mobile { .header-menu.white .header-menu-cta .btn:hover {
+	border-radius: 3px;
+	padding: 20px 30px;
+	font-size: 15px;
+	color: #ffffff !important;
+	background: #28ce24 !important;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #28ce24 !important;
+}
+.header-menu.white .header-menu-cta .btn {
+	border-radius: 3px;
+	padding: 20px 30px;
+	font-size: 15px;
+	color: #28ce24 !important;
+	background: #ffffff !important;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #28ce24 !important;
+}
+}
+@media @tablet { .header-menu.white .header-menu-cta .btn:hover {
+	border-radius: 3px;
+	padding: 20px 30px;
+	font-size: 15px;
+	color: #ffffff !important;
+	background: #28ce24 !important;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #28ce24 !important;
+}
+.header-menu.white .header-menu-cta .btn {
+	border-radius: 3px;
+	padding: 20px 30px;
+	font-size: 15px;
+	color: #28ce24 !important;
+	background: #ffffff !important;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #28ce24 !important;
+}
+}
+/* Header navigation dropdown menu customizations */
+.header-nav-folder-content {
+	background: #022437 !important;
+	text-align: left !important;
+	border-radius: 7px 7px 7px 7px;
+	width: 200px;
+}
+.header-nav-folder-item a {
+	color: white !important;
+}
+.header-nav-folder-item a:hover {
+	font-weight: bold !important;
+}
+/* End header code section */
+/*Explore all designs page * clip-paths color */
+#collection-6179cff222b9902247693370 {
+	background-color: #002437;
+}
+/* Explore all designs page clip-paths */
+#collection-6179cff222b9902247693370 {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 85%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 85%);
+   }
+}
+@media @mobile { #collection-6179cff222b9902247693370 {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 80%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 80%);
+   }
+}
+}
+#collection-6179cff222b9902247693370 {
+	#page .page-section:nth-of-type(3) {
+		-webkit-clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+		clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+   }
+}
+#collection-6179cff222b9902247693370 {
+	#page .page-section:nth-of-type(6) {
+		-webkit-clip-path: polygon(0 90%, 0 0, 100% 0, 100% 80%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 90%);
+   }
+}
+@media @mobile { #collection-6179cff222b9902247693370 {
+	#page .page-section:nth-of-type(6) {
+		-webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 93%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 93%);
+   }
+}
+}
+#collection-6179cff222b9902247693370 {
+	#page .page-section:nth-of-type(8) {
+		-webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+   }
+}
+/* explore all designs *button customizations */
+#collection-6179cff222b9902247693370 {
+	#page .page-section:nth-of-type(6){
+		.sqs-block-button-element {
+			background-color: #ffffff;
+			color: #022437 !important;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #022437 !important;
+			padding: 20px 30px;
+			font-size: 15px;
+	   }
+		.sqs-block-button-element:hover {
+			border-radius: 3px;
+			padding: 20px 30px;
+			font-size: 15px;
+			color: #ffffff !important;
+			background: #022437 !important;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #022437 !important;
+	   }
+   }
+}
+/*End Explore all designs code section */
+/*Behavioral Innovation Page * clip-paths */
+#collection-610da9aba9a76f3f59862746 {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+   }
+}
+#collection-610da9aba9a76f3f59862746 {
+	#page .page-section:nth-of-type(3) {
+		-webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+		clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+   }
+}
+/*End behavioral innovation code section */
+/* Forness page *clip-paths */
+#collection-6179db836b0de0445a0cc1f9 {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+   }
+}
+#collection-6179db836b0de0445a0cc1f9 {
+	#page .page-section:nth-of-type(3) {
+		-webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+		clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+   }
+}
+@media @mobile { #collection-6179db836b0de0445a0cc1f9 {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+   }
+}
+}
+@media @mobile { #collection-6179db836b0de0445a0cc1f9 {
+	#page .page-section:nth-of-type(3) {
+		-webkit-clip-path: polygon(0 3.5%, 100% 0, 100% 100%, 0 100%);
+		clip-path: polygon(0 3.5%, 100% 0, 100% 100%, 0 100%);
+   }
+}
+}
+/* forness button customization*/
+#collection-6179db836b0de0445a0cc1f9 {
+	#page .page-section:nth-of-type(2){
+		.sqs-block-button-element {
+			background-color: #ffffff;
+			color: #022437 !important;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #022437 !important;
+			padding: 20px 30px;
+			font-size: 15px;
+	   }
+		.sqs-block-button-element:hover {
+			border-radius: 3px;
+			padding: 20px 30px;
+			font-size: 15px;
+			color: #ffffff !important;
+			background: #022437 !important;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #022437 !important;
+	   }
+   }
+}
+/* End forness code section */
+/* Inspire Consumer Page *clip-paths */
+#collection-6179e8ff7f91f62361d794c2 {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+   }
+}
+#collection-6179e8ff7f91f62361d794c2 {
+	#page .page-section:nth-of-type(3) {
+		-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+		clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+   }
+}
+#collection-6179e8ff7f91f62361d794c2 {
+	#page .page-section:nth-of-type(4) {
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+   }
+}
+/* Inspire® Consumer *mobile clip-path, section 4 only */
+@media @mobile {
+	#collection-6179e8ff7f91f62361d794c2 {
+		#page .page-section:nth-of-type(4) {
+			-webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+			clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+	   }
+   }
+}
+/* End inspire consumer */
+/* Blog 
+/* End blog code section */
+
+/* Case studies page *button customizations */
+#collection-610c99f6ed04e50d8b29f947 {
+	#page .page-section:nth-of-type(3) {
+		.sqs-block-button-element {
+			background-color: #ffffff;
+			color: #28ce24 !important;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #28ce24 !important;
+			padding: 20px 30px;
+			font-size: 15px;
+	   }
+		.sqs-block-button-element:hover {
+			border-radius: 3px;
+			padding: 20px 30px;
+			font-size: 15px;
+			color: #ffffff !important;
+			background: #28ce24 !important;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #28ce24 !important;
+	   }
+   }
+}
+#collection-610c99f6ed04e50d8b29f947 {
+	#page .page-section:nth-of-type(4) {
+		.sqs-block-button-element {
+			background-color: #ffffff;
+			color: #28ce24 !important;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #28ce24 !important;
+			padding: 20px 30px;
+			font-size: 15px;
+	   }
+		.sqs-block-button-element:hover {
+			border-radius: 3px;
+			padding: 20px 30px;
+			font-size: 15px;
+			color: #ffffff !important;
+			background: #28ce24 !important;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #28ce24 !important;
+	   }
+   }
+}
+/* case studies page *clip-paths */
+#collection-610c99f6ed04e50d8b29f947 {
+	#page .page-section:nth-of-type(2) {
+		-webkit-clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+		clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+   }
+}
+/* End case study page code section */
+/* Case Study (collection) *clip-paths */
+#collection-61175f14552e8145536b208b, #collection-6150d8b5e3f2952900b85743, #collection-6150dabb00ba934b3c1eda10, #collection-6150dbfd84f9e26f3e51948b, #collection-6150dccf00ba934b3c1ef818, #collection-6150dd5fdb27015246bb0143, #collection-61510996c2965710d9240b6f, #collection-61510ae93b63df511650eadc, #collection-61510c67f05e93389b36d875, #collection-61510dd6b7f6100ba9be767c, #collection-61510efc786cf067414bd85d, #collection-61510fc1d4ddcb66a73a57d7, #collection-615111228e6b8d0a91c364e3, #collection-610c99f6ed04e50d8b29f947 {
+	#page .page-section:nth-of-type(2) {
+		-webkit-clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
+		clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
+   }
+}
+/* End case studies (collection) code section */
+/*Creative Consumer Associates page *clip-paths color */
+#collection-6150bd5bfd9e27603a94f9a9 {
+	background-color: #002437!important;
+}
+/*Creative Consumer Associates clip-paths */
+#collection-6150bd5bfd9e27603a94f9a9 {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 90%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 90%);
+   }
+}
+#collection-6150bd5bfd9e27603a94f9a9 {
+	#page .page-section:nth-of-type(5) {
+		-webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+		clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+   }
+}
+#collection-6150bd5bfd9e27603a94f9a9 {
+	#page .page-section:nth-of-type(8) {
+		-webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+		clip-path: polygon(0 0%, 100% 0, 100% 80%, 0 100%);
+   }
+}
+/* Creative consumers buttons customization */
+#collection-6150bd5bfd9e27603a94f9a9 {
+	#page .page-section:nth-of-type(3){
+		.sqs-block-button-element {
+			background-color: #ffffff;
+			color: #28CE24 !important;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #28CE24 !important;
+			padding: 20px 30px;
+			font-size: 15px;
+	   }
+		.sqs-block-button-element:hover {
+			border-radius: 3px;
+			padding: 20px 30px;
+			font-size: 15px;
+			color: #ffffff !important;
+			background: #28CE24 !important;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #28CE24 !important;
+	   }
+   }
+} 
+/* End creative consumers associates code section */
+/* Meet our team * Meet our team button customizations */
+#collection-60f77b3af217823027a41dfe {
+	#page .page-section:nth-of-type(5){
+		.sqs-block-button-element {
+			background-color: #ffffff;
+			color: #28ce24 !important;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #28ce24 !important;
+			padding: 20px 30px;
+			font-size: 15px;
+	   }
+		.sqs-block-button-element:hover {
+			border-radius: 3px;
+			padding: 20px 30px;
+			font-size: 15px;
+			color: #ffffff !important;
+			background: #28ce24 !important;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #28ce24 !important;
+	   }
+   }
+}
+#collection-60f77b3af217823027a41dfe {
+	#page .page-section:nth-of-type(8){
+		.sqs-block-button-element {
+			background-color: #ffffff;
+			color: #28ce24 !important;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #28ce24 !important;
+			padding: 20px 30px;
+			font-size: 15px;
+	   }
+		.sqs-block-button-element:hover {
+			border-radius: 3px;
+			padding: 20px 30px;
+			font-size: 15px;
+			color: #ffffff !important;
+			background: #28ce24 !important;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #28ce24 !important;
+	   }
+   }
+}
+@media @mobile { #collection-60f77b3af217823027a41dfe {
+	#page .page-section:nth-of-type(2) { display: none;
+ }
+ }
+}
+/*Meet our team clip-paths */
+#collection-60f77b3af217823027a41dfe {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 80%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 80%);
+   }
+}
+#collection-60f77b3af217823027a41dfe {
+	#page .page-section:nth-of-type(2) {
+		-webkit-clip-path: polygon(0 20%, 0 100%, 100% 80%, 100% 0);
+		clip-path: polygon(0 20%, 0 100%, 100% 80%, 100% 0);
+   }
+}
+#collection-60f77b3af217823027a41dfe {
+	#page .page-section:nth-of-type(6) {
+		-webkit-clip-path: polygon(0 20%, 0 100%, 100% 80%, 100% 0);
+		clip-path: polygon(0 20%, 0 100%, 100% 80%, 100% 0);
+   }
+}
+#collection-60f77b3af217823027a41dfe {
+	#page .page-section:nth-of-type(9) {
+		-webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+		clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+   }
+}
+/* mobile only */
+@media @mobile { #collection-60f77b3af217823027a41dfe {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 90%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 90%);
+   }
+}
+#collection-60f77b3af217823027a41dfe {
+	#page .page-section:nth-of-type(2) {
+		-webkit-clip-path: polygon(0 10%, 0 100%, 100% 90%, 100% 0);
+		clip-path: polygon(0 10%, 0 100%, 100% 90%, 100% 0);
+   }
+}
+#collection-60f77b3af217823027a41dfe {
+	#page .page-section:nth-of-type(6) {
+		-webkit-clip-path: polygon(0 10%, 0 100%, 100% 90%, 100% 0);
+		clip-path: polygon(0 10%, 0 100%, 100% 90%, 100% 0);
+   }
+}
+#collection-60f77b3af217823027a41dfe {
+	#page .page-section:nth-of-type(9) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+   }
+}
+}
+/* End meet our team code section */
+/* Team pages (collection) *custom buttons */
+#collection-61550be6ba9984600ae01c51, #collection-61550a4695b6d66cf91ba28b, #collection-615505bac182ad032fc45193, #collection-61550757665d461d1e762fbd, #collection-615507602d7544605cb679e9, #collection-61550ab6244fd033b80ed3d1, #collection-615507c30adc33170fe8eed2, #collection-6155089b07f61213f7e7ba9d, #collection-61550b5dff1f9f5237b1f5bb, #collection-61550c3e1db8eb7a6eaf3f22, #collection-6155090253fcca4c68f7658f, #collection-615509a463ed72061b457523, #collection-61550af8b41bbe58d02829e3 {
+	#page .page-section:nth-of-type(1){
+		.sqs-block-button-element {
+			background-color: #ffffff;
+			color: #28ce24 !important;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #28ce24 !important;
+			padding: 20px 30px;
+			font-size: 15px;
+	   }
+		.sqs-block-button-element:hover {
+			border-radius: 3px;
+			padding: 20px 30px;
+			font-size: 15px;
+			color: #ffffff !important;
+			background: #28ce24 !important;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #28ce24 !important;
+	   }
+   }
+}
+/* End team pages (collection) code section */
+/*FAQ page *clip-paths*/
+#collection-60f77b5c3bf5736ec3860cf6 {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 80%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 80%);
+   }
+}
+@media @mobile { #collection-60f77b5c3bf5736ec3860cf6 {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 90%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 90%);
+   }
+}
+}
+/* End FAQ code section */
+/* Talk to us page */
+/*clip-path color */
+#collection-60f77b7971a51f055540c4aa {
+	background-color: #002437!important;
+}
+/* Talk to us clip-paths */
+#collection-60f77b7971a51f055540c4aa {
+	#page .page-section:nth-of-type(1){
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+   }
+}
+@media @mobile { #collection-60f77b7971a51f055540c4aa {
+	#page .page-section:nth-of-type(1){
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+   }
+}
+}
+/* Talk to us form customizations *linked to a form from Hubspot, script is stored in a block of code on the page itself. */
+input, select {
+	background-color: white;
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 15px !important;
+	margin-left: 0px;
+	width: 100%;
+}
+input:focus, select:focus, textarea:focus {
+	outline: 0;
+	border-bottom: 4px solid #6AB9F7 !important;
+}
+textarea {
+	background-color: white;
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 10px auto;
+	margin: 10px auto;
+	margin-left: 0px;
+	width: 100%;
+	height: 125px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+	background-color: #022437;
+	border: solid;
+	border-radius: 3px;
+	border-width: 2px;
+	color: #ffffff;
+	padding: 15px;
+	margin: 30px 30px 20px 0px !important;
+	font-size: 15px;
+	width: 150px;
+	height: 65px;
+	text-align: center;
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+	background-color: #ffffff;
+	border: solid;
+	border-color: white;
+	border-radius: 3px;
+	border-width: 2px;
+	color: #022437;
+	padding: 15px, 15px;
+	margin: 15px;
+	margin-left: 0;
+	font-size: 15px;
+	width: 150px;
+	height: 65px;
+	text-align: center;
+}
+@media @mobile { input, select {
+	background-color: white;
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 15px !important;
+	margin-left: 0px;
+	width: 90%;
+}
+}
+/* End talk to us code section*/
+/* Tyler Test * clip-paths color */
+#collection-618ec7ad1f30aa462eb8623f {
+	background-color: #002437;
+}
+/* Tyler Test page clip-paths */
+#collection-618ec7ad1f30aa462eb8623f {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 85%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 85%);
+   }
+}
+@media @mobile { #collection-618ec7ad1f30aa462eb8623f {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 80%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 80%);
+   }
+}
+}
+#collection-618ec7ad1f30aa462eb8623f {
+	#page .page-section:nth-of-type(3) {
+		-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+		clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+   }
+}
+#collection-618ec7ad1f30aa462eb8623f {
+	#page .page-section:nth-of-type(6) {
+		-webkit-clip-path: polygon(0 90%, 0 0, 100% 0, 100% 80%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 90%);
+   }
+}
+@media @mobile { #collection-618ec7ad1f30aa462eb8623f {
+	#page .page-section:nth-of-type(6) {
+		-webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 93%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 93%);
+   }
+}
+}
+#collection-618ec7ad1f30aa462eb8623f {
+	#page .page-section:nth-of-type(8) {
+		-webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+   }
+}
+/* Tyler Test *button customizations */
+#collection-618ec7ad1f30aa462eb8623f {
+	#page .page-section:nth-of-type(6){
+		.sqs-block-button-element {
+			background-color: #ffffff;
+			color: #022437 !important;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #022437 !important;
+			padding: 20px 30px;
+			font-size: 15px;
+	   }
+		.sqs-block-button-element:hover {
+			border-radius: 3px;
+			padding: 20px 30px;
+			font-size: 15px;
+			color: #ffffff !important;
+			background: #022437 !important;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #022437 !important;
+	   }
+   }
+}
+/*End Tyler Test code section */
+
+/* templates for future pages */
+
+/* future explore all designs 1 clip-path color */
+#collection-61819b2e02af1d3f37a3c0a5 {
+	background-color: #002437;
+}
+/* future explore all designs 1 page clip-paths */
+#collection-61819b2e02af1d3f37a3c0a5 {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 85%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 85%);
+   }
+}
+@media @mobile { #collection-61819b2e02af1d3f37a3c0a5 {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 80%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 80%);
+   }
+}
+}
+#collection-61819b2e02af1d3f37a3c0a5 {
+	#page .page-section:nth-of-type(3) {
+		-webkit-clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+		clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+   }
+}
+#collection-61819b2e02af1d3f37a3c0a5 {
+	#page .page-section:nth-of-type(6) {
+		-webkit-clip-path: polygon(0 90%, 0 0, 100% 0, 100% 80%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 90%);
+   }
+}
+@media @mobile { #collection-61819b2e02af1d3f37a3c0a5 {
+	#page .page-section:nth-of-type(6) {
+		-webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 93%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 93%);
+   }
+}
+}
+#collection-61819b2e02af1d3f37a3c0a5 {
+	#page .page-section:nth-of-type(8) {
+		-webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+   }
+}
+/* future explore all designs 1 button customs */
+#collection-61819b2e02af1d3f37a3c0a5 {
+	#page .page-section:nth-of-type(6){
+		.sqs-block-button-element {
+			background-color: #ffffff;
+			color: #022437 !important;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #022437 !important;
+			padding: 20px 30px;
+			font-size: 15px;
+	   }
+		.sqs-block-button-element:hover {
+			border-radius: 3px;
+			padding: 20px 30px;
+			font-size: 15px;
+			color: #ffffff !important;
+			background: #022437 !important;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #022437 !important;
+	   }
+   }
+}
+/* end future explore all designs 1 code section */
+
+/* future explore all designs 2 
+* clip-path color */
+#collection-61819b1d4a62fb38f629ea33 {
+	background-color: #002437;
+}
+
+/* Accelerate updated code */
+#collection-6152663c02d4a1471de6dad4 {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+		clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+   }
+}
+@media @mobile { #collection-6152663c02d4a1471de6dad4 {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+		clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+   }
+}
+}
+
+#collection-6152663c02d4a1471de6dad4 {
+	#page .page-section:nth-of-type(2) {
+		-webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+		clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+   }
+}
+@media @mobile { #collection-6152663c02d4a1471de6dad4 {
+	#page .page-section:nth-of-type(2) {
+		-webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+		clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+   }
+}
+}
+/* end Accelerate updated code */
+
+/* Excite updated code */
+#collection-615266f7caaf690b58ff7672 {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+		clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+   }
+}
+@media @mobile { #collection-615266f7caaf690b58ff7672 {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+		clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+   }
+}
+}
+
+#collection-615266f7caaf690b58ff7672 {
+	#page .page-section:nth-of-type(2) {
+		-webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+		clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+   }
+}
+@media @mobile { #collection-615266f7caaf690b58ff7672 {
+	#page .page-section:nth-of-type(2) {
+		-webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+		clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+   }
+}
+}
+/* end Excite updated code */
+
+/* Ignite updated code */
+#collection-6150b71ae97dea2a940d4acf {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+		clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+   }
+}
+@media @mobile { #collection-6150b71ae97dea2a940d4acf {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+		clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+   }
+}
+}
+
+#collection-6150b71ae97dea2a940d4acf {
+	#page .page-section:nth-of-type(2) {
+		-webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+		clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+   }
+}
+@media @mobile { #collection-6150b71ae97dea2a940d4acf {
+	#page .page-section:nth-of-type(2) {
+		-webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+		clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+   }
+}
+}
+/* end Ignite updated code */
+
+/* future explore all designs 2 page clip-paths */
+#collection-61819b1d4a62fb38f629ea33 {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 85%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 85%);
+   }
+}
+@media @mobile { #collection-61819b1d4a62fb38f629ea33 {
+	#page .page-section:nth-of-type(1) {
+		-webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 80%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 80%);
+   }
+}
+}
+#collection-61819b1d4a62fb38f629ea33 {
+	#page .page-section:nth-of-type(3) {
+		-webkit-clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+		clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+   }
+}
+#collection-61819b1d4a62fb38f629ea33 {
+	#page .page-section:nth-of-type(6) {
+		-webkit-clip-path: polygon(0 90%, 0 0, 100% 0, 100% 80%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 90%);
+   }
+}
+@media @mobile { #collection-61819b1d4a62fb38f629ea33 {
+	#page .page-section:nth-of-type(6) {
+		-webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 93%);
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 93%);
+   }
+}
+}
+#collection-61819b1d4a62fb38f629ea33 {
+	#page .page-section:nth-of-type(8) {
+		-webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+   }
+}
+/* future explore all designs 2 button customs */
+#collection-61819b1d4a62fb38f629ea33 {
+	#page .page-section:nth-of-type(6){
+		.sqs-block-button-element {
+			background-color: #ffffff;
+			color: #022437 !important;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #022437 !important;
+			padding: 20px 30px;
+			font-size: 15px;
+	   }
+		.sqs-block-button-element:hover {
+			border-radius: 3px;
+			padding: 20px 30px;
+			font-size: 15px;
+			color: #ffffff !important;
+			background: #022437 !important;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #022437 !important;
+	   }
+   }
+}
+/* end future explore all designs 2 page */
+
+/* future home 1 */
+#collection-61819b4a92ee4e689ee279b2 {
+	#page .page-section:nth-of-type(2) {
+		-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 100% 0%);
+		clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+   }
+}
+#collection-61819b4a92ee4e689ee279b2 {
+	#page .page-section:nth-of-type(3) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+   }
+}
+#collection-61819b4a92ee4e689ee279b2 {
+	#page .page-section:nth-of-type(4) {
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+   }
+}
+#collection-61819b4a92ee4e689ee279b2 {
+	#page .page-section:nth-of-type(6) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+   }
+}
+#collection-61819b4a92ee4e689ee279b2 {
+	#page .page-section:nth-of-type(7) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+   }
+}
+#collection-61819b4a92ee4e689ee279b2 {
+	#page .page-section:nth-of-type(8) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+   }
+}
+#collection-61819b4a92ee4e689ee279b2 {
+	#page .page-section:nth-of-type(9) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+   }
+}
+#collection-61819b4a92ee4e689ee279b2 {
+	#page .page-section:nth-of-type(10) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+   }
+}
+#collection-61819b4a92ee4e689ee279b2 {
+	#page .page-section:nth-of-type(12) {
+		-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+   }
+}
+/* end future home 1 code section */
+
+/* future home 2 */
+#collection-61819b410a364806f23e5c42 {
+	#page .page-section:nth-of-type(2) {
+		-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 100% 0%);
+		clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+   }
+}
+#collection-61819b410a364806f23e5c42 {
+	#page .page-section:nth-of-type(3) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+   }
+}
+#collection-61819b410a364806f23e5c42 {
+	#page .page-section:nth-of-type(4) {
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+   }
+}
+#collection-61819b410a364806f23e5c42 {
+	#page .page-section:nth-of-type(6) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+   }
+}
+#collection-61819b410a364806f23e5c42 {
+	#page .page-section:nth-of-type(7) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+   }
+}
+#collection-61819b410a364806f23e5c42 {
+	#page .page-section:nth-of-type(8) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+   }
+}
+#collection-61819b410a364806f23e5c42 {
+	#page .page-section:nth-of-type(9) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+   }
+}
+#collection-61819b410a364806f23e5c42 {
+	#page .page-section:nth-of-type(10) {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+   }
+}
+#collection-61819b410a364806f23e5c42 {
+	#page .page-section:nth-of-type(12) {
+		-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+   }
+}
+/* end future home 2 code section */
